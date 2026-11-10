@@ -1,0 +1,160 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.db
+.env
+
+# ==========================================
+# AI-POWERED ADMISSION ASSISTANCE PLATFORM
+# ==========================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+credentials/
+service-account*.json
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.vercel/
+.netlify/
+
+# Python dependencies and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+wheels/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# AI / Machine Learning
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.pkl
+*.joblib
+*.gguf
+chroma_db/
+vector_store/
+vector_db/
+faiss_index/
+embeddings/
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# Uploaded admission documents
+uploads/
+uploaded_files/
+user_uploads/
+documents/
+admission_documents/
+student_documents/
+resumes/
+certificates/
+marksheets/
+identity_documents/
+
+# Databases and local data
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+mongodb-data/
+postgres-data/
+redis-data/
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+temp_files/
+*.tmp
+*.bak
+*.swp
+
+# User-generated reports and exports
+reports/
+exports/
+generated_reports/
+generated_pdfs/
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# Testing and coverage
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+
+# IDE and editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Deployment and infrastructure
+.terraform/
+*.tfstate
+*.tfstate.*
+serverless/
+.aws-sam/
+
+# Docker
+.docker/
+
+# Next.js
+next-env.d.ts
+
+# Miscellaneous
+*.orig
+*.rej
+*.patch
+*.old
+EOF
